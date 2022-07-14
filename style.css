@@ -85,42 +85,37 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
 }
 
 .placa-mae  p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
 
 
 .placa-mae  img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
+    
     
 }
 
 
 .placa-mae img:hover{
     transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.541), black);    
-}
-
-
-.placa-mae p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-
+    width: 550px;
+    height: 550px;     
 }
 
 
@@ -131,41 +126,39 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
     
 }
 
 .cpu p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
+
 
 
 .cpu img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
 }
 
 
 .cpu img:hover{
     transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.541), black);
+    width: 550px;
+    height: 550px;  
 }
 
-.cpu p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-
-}
 
 
 .ram{
@@ -174,41 +167,36 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
     
 }
 
 .ram p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
 
 
 .ram img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
 }
 
 
 .ram img:hover{
     transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.541), black);
-
-}
-
-.ram p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    
+    width: 550px;
+    height: 550px;  
 
 }
 
@@ -219,43 +207,39 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
     
 }
 
 .ssd p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
 
 
 .ssd img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
 }
 
 
 .ssd img:hover{
-    width: 600px;
-    height: 600px;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.541), black);
     transition: 0.5s;
+    width: 550px;
+    height: 550px;  
 
 }
 
-.ssd p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    
-
-}
 
 
 .fonte{
@@ -264,43 +248,39 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
     
 }
 
 .fonte p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
 
 
 .fonte img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
 }
 
 
 .fonte img:hover{
     transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    background-color: rgba(48, 47, 47, 0.253);
+    width: 550px;
+    height: 550px;  
 
 }
 
-.fonte p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    
-
-}
 
 .placa-video{
     display: flex;
@@ -308,43 +288,39 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
     
 }
 
 .placa-video p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
 
 
 .placa-video img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
 }
 
 
 .placa-video img:hover{
-    width: 600px;
-    height: 600px;
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.541), black);
     transition: 0.5s;
+    width: 550px;
+    height: 550px;  
 
 }
 
-.placa-video p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    
-
-}
 
 .gabinete{
     display: flex;
@@ -352,43 +328,39 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
+    border: 1px solid white;
+    margin-bottom: 200px;
+    margin-top: 200px;
     
 }
 
 .gabinete p{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
-    padding: 10px 10px 0px 10px;
+    padding: 0px;
     text-align: justify;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    text-indent: 2em;
 }
 
 
 .gabinete img{
     width: 500px;
     height: 500px;
-    border: 2px solid white;
     padding: 10px 10px 0px 10px;
 }
 
 
 .gabinete img:hover{
     transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    background-color: rgba(48, 47, 47, 0.253);
+    width: 550px;
+    height: 550px;  
 
 }
 
-.gabinete p:hover{
-    transition: 0.5s;
-    width: 600px;
-    height: 600px;
-    
-
-} 
 
 
 
