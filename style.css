@@ -70,13 +70,14 @@ header h1{
 
 .intro{
     text-align: justify;
-    height: 400px;
+    max-height: 400px;
     margin: 10px 50px 10px 50px;
-    font-size: 2em;
+    font-size: 1.6vmax;
 }
 
 .intro h1{
     text-align: center;
+    
 }
 
 .placa-mae{
@@ -88,6 +89,9 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:1500px;
+    max-height: 600px ;
+    max-height: none;
 }
 
 .placa-mae  p{
@@ -97,15 +101,17 @@ header h1{
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
 
 
 .placa-mae  img{
-    width: 500px;
-    height: 500px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
     padding: 10px 10px 0px 10px;
     
     
@@ -114,10 +120,9 @@ header h1{
 
 .placa-mae img:hover{
     transition: 0.5s;
-    width: 550px;
-    height: 550px;     
+    max-width: 550px;
+    max-height: 550px;     
 }
-
 
 
 .cpu{
