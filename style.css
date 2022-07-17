@@ -6,7 +6,7 @@
 }
 
 body{
-    margin: 10px 150px 10px 150px;
+    margin: 1px 1px 1px 1px;
     padding: 10px;
     background-color: rgb(0, 0, 0);
 }
@@ -16,14 +16,15 @@ header{
     padding: 10px;
     background-image: url(Imagens/fundo.jpg);
     background-repeat: no-repeat;
-    background-size: 1600px 350px ;
+    background-size: 2000px 370px;  
+    
 }
 
 
 header h1{
     text-align: center;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: max(25px, 2.5vw);
     color: red;
     background-color: transparent;
 }
@@ -41,7 +42,7 @@ header h1{
     background-color: white;
     color: black;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: max(10px, 1.1vw);
     text-decoration: none;
     padding: 10px;
     margin: 5px;
@@ -50,7 +51,9 @@ header h1{
 
 .menu a:hover{
     transition: 0.5s;
-    border: 7px solid white;
+    border: 5px solid rgba(97, 97, 97, 0.938);
+    background-color: rgb(0, 0, 0);
+    color: white;
         
 }
 
@@ -89,15 +92,15 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
-    max-width:1500px;
-    max-height: 600px ;
-    max-height: none;
+    max-width:2000px;
+    max-height: 500px ;
+
 }
 
 .placa-mae  p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 10px 0px 0px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -112,16 +115,19 @@ header h1{
     max-height: 500px;
     min-width: 200px;
     min-height: 200px;
-    padding: 10px 10px 0px 10px;
+    padding: 0px 0px 0px 10px;
     
     
 }
 
 
 .placa-mae img:hover{
-    transition: 0.5s;
     max-width: 550px;
-    max-height: 550px;     
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s;
+       
 }
 
 
@@ -134,17 +140,19 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:2000px;
+    max-height: 500px ;
     
 }
 
 .cpu p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 0px 0px 10px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
@@ -152,16 +160,20 @@ header h1{
 
 
 .cpu img{
-    width: 500px;
-    height: 500px;
-    padding: 10px 10px 0px 10px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 0px 10px 0px 0px;
 }
 
 
 .cpu img:hover{
-    transition: 0.5s;
-    width: 550px;
-    height: 550px;  
+    max-width: 550px;
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s; 
 }
 
 
@@ -175,33 +187,40 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:2000px;
+    max-height: 500px ;
     
 }
 
 .ram p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 10px 0px 0px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
 
 
 .ram img{
-    width: 500px;
-    height: 500px;
-    padding: 10px 10px 0px 10px;
+    max-width: 500px;
+    max-width: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 0px 0px 0px 10px;
+    background: transparent;
 }
 
 
 .ram img:hover{
-    transition: 0.5s;
-    width: 550px;
-    height: 550px;  
+    max-width: 550px;
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s; 
 
 }
 
@@ -215,34 +234,39 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:2000px;
+    max-height: 500px ;
     
 }
 
 .ssd p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 0px 0px 10px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
 
 
 .ssd img{
-    width: 500px;
-    height: 500px;
-    padding: 10px 10px 0px 10px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 0px 10px 0px 0px;
 }
 
 
 .ssd img:hover{
-    transition: 0.5s;
-    width: 550px;
-    height: 550px;  
-
+    max-width: 550px;
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s; 
 }
 
 
@@ -256,33 +280,39 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:2000px;
+    max-height: 500px ;
     
 }
 
 .fonte p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 10px 0px 0px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
 
 
 .fonte img{
-    width: 500px;
-    height: 500px;
-    padding: 10px 10px 0px 10px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 0px 0px 0px 10px;
 }
 
 
 .fonte img:hover{
-    transition: 0.5s;
-    width: 550px;
-    height: 550px;  
+    max-width: 550px;
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s;  
 
 }
 
@@ -296,33 +326,39 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:2000px;
+    max-height: 500px;
     
 }
 
 .placa-video p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 0px 0px 10px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
 
 
 .placa-video img{
-    width: 500px;
-    height: 500px;
-    padding: 10px 10px 0px 10px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 0px 10px 0px 0px;
 }
 
 
 .placa-video img:hover{
-    transition: 0.5s;
-    width: 550px;
-    height: 550px;  
+    max-width: 550px;
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s; 
 }
 
 
@@ -335,33 +371,39 @@ header h1{
     border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
+    max-width:2000px;
+    max-height: 500px ;
     
 }
 
 .gabinete p{
-    width: 500px;
-    height: 500px;
-    padding: 0px;
+    max-width: 500px;
+    max-height: 500px;
+    padding: 0px 10px 0px 0px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: max(1.3vw, 1.3vh);
     line-height: 1.3em;
     text-indent: 2em;
 }
 
 
 .gabinete img{
-    width: 500px;
-    height: 500px;
-    padding: 10px 10px 0px 10px;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 0px 0px 0px 10px;
 }
 
 
 .gabinete img:hover{
-    transition: 0.5s;
-    width: 550px;
-    height: 550px;  
+    max-width: 550px;
+    max-width: 550px;
+    min-height: 210px;
+    min-width: 210px;
+    transition: 0.5s; 
 
 }
 
