@@ -89,7 +89,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -137,7 +136,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -184,7 +182,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -231,7 +228,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -277,7 +273,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -323,7 +318,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -368,7 +362,6 @@ header h1{
     align-items: center;
     margin: 20px;
     padding: 20px;
-    border: 1px solid white;
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
@@ -392,8 +385,8 @@ header h1{
 .gabinete img{
     max-width: 500px;
     max-height: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 0px 0px 10px;
 }
 
@@ -401,10 +394,9 @@ header h1{
 .gabinete img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
+    min-height: 150px;
+    min-width: 150px;
     transition: 0.5s; 
-
 }
 
 
