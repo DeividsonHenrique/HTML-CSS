@@ -28,6 +28,7 @@ header h1{
     font-weight: bold;
     font-size: max(25px, 2.5vw);
     color: red;
+    font-family: 'Cormorant SC', serif;
     background-color: transparent;
 }
 
@@ -82,6 +83,7 @@ header h1{
 
 .intro h1{
     text-align: center;
+    font-family: 'Cormorant SC', serif;
     
 }
 
@@ -114,10 +116,10 @@ header h1{
 .placa-mae  img{
     max-width: 500px;
     max-height: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 0px 0px 10px;
-    transition: 0.5s;   
+    transition: 0.5s; 
     
 }
 
@@ -125,10 +127,8 @@ header h1{
 .placa-mae img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
-    
-       
+    min-height: 120px;
+    min-width: 120px;
 }
 
 
@@ -162,8 +162,8 @@ header h1{
 .cpu img{
     max-width: 500px;
     max-height: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 10px 0px 0px;
     transition: 0.5s; 
 }
@@ -172,8 +172,8 @@ header h1{
 .cpu img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 
@@ -206,11 +206,10 @@ header h1{
 
 .ram img{
     max-width: 500px;
-    max-width: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    max-height: 500px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 0px 0px 10px;
-    background: transparent;
     transition: 0.5s; 
 }
 
@@ -218,8 +217,8 @@ header h1{
 .ram img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 
@@ -252,8 +251,8 @@ header h1{
 .ssd img{
     max-width: 500px;
     max-height: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 10px 0px 0px;
     transition: 0.5s; 
 }
@@ -262,8 +261,8 @@ header h1{
 .ssd img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 
@@ -297,8 +296,8 @@ header h1{
 .fonte img{
     max-width: 500px;
     max-height: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 0px 0px 10px;
     transition: 0.5s; 
 }
@@ -307,8 +306,8 @@ header h1{
 .fonte img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 
@@ -341,18 +340,18 @@ header h1{
 .placa-video img{
     max-width: 500px;
     max-height: 500px;
-    min-width: 200px;
-    min-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
     padding: 0px 10px 0px 0px;
-    transition: 0.5s; 
+    transition: 0.5s;  
 }
 
 
 .placa-video img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 210px;
-    min-width: 210px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 
@@ -372,12 +371,13 @@ header h1{
 .gabinete p{
     max-width: 500px;
     max-height: 500px;
+    min-height: 100px;
+    min-width: 100px;
     padding: 0px 10px 0px 0px;
     text-align: justify;
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: max(1.3vw, 1.3vh);
-    font-size: min(1vw);
     line-height: 1.3em;
     text-indent: 2em;
 }
@@ -396,8 +396,8 @@ header h1{
 .gabinete img:hover{
     max-width: 550px;
     max-width: 550px;
-    min-height: 150px;
-    min-width: 150px;
+    min-height: 120px;
+    min-width: 120px;
 }
 
 footer{
