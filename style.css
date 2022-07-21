@@ -441,13 +441,13 @@ footer p{
 }
 
 
-
 .final, span{
     background: black;
     text-align: center;
     font-weight: bold;
     font-size: max(1.4vw);
     padding: 1px;
+    margin-bottom: -20px;
     border-radius: 10px;
 }
 
