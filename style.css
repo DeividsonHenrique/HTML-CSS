@@ -44,13 +44,14 @@ header h1{
     border: 1px solid white;
     background-color: white;
     color: black;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: max(10px, 1.1vw);
     text-decoration: none;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
     transition: 0.5s;
+    font-family: 'Cormorant SC', serif;
 }
 
 .menu a:hover{
@@ -87,6 +88,24 @@ header h1{
     
 }
 
+.all-h1{
+    color: rgb(255, 226, 191);
+}
+
+.all-p{
+    color: rgb(247, 247, 231);
+}
+
+.h1-placa-mae{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
 .placa-mae{
     display: flex;
     justify-content: space-around;
@@ -99,6 +118,8 @@ header h1{
     max-height: 500px ;
 
 }
+
+
 
 .placa-mae  p{
     max-width: 500px;
@@ -129,6 +150,15 @@ header h1{
     max-width: 550px;
     min-height: 120px;
     min-width: 120px;
+}
+
+.h1-cpu{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
+
 }
 
 
@@ -176,7 +206,14 @@ header h1{
     min-width: 120px;
 }
 
+.h1-ram{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
 
+}
 
 .ram{
     display: flex;
@@ -221,6 +258,14 @@ header h1{
     min-width: 120px;
 }
 
+.h1-ssd{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
+
+}
 
 .ssd{
     display: flex;
@@ -265,7 +310,14 @@ header h1{
     min-width: 120px;
 }
 
+.h1-fonte{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
 
+}
 
 .fonte{
     display: flex;
@@ -310,6 +362,14 @@ header h1{
     min-width: 120px;
 }
 
+.h1-vga{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
+
+}
 
 .placa-video{
     display: flex;
@@ -354,6 +414,14 @@ header h1{
     min-width: 120px;
 }
 
+.h1-gabinete{
+    text-align: center;
+    margin: 220px 0px -220px 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.6vmax;
+    font-weight: bold;
+
+}
 
 .gabinete{
     display: flex;
