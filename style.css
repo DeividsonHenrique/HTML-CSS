@@ -115,7 +115,9 @@ header h1{
     margin-bottom: 200px;
     margin-top: 200px;
     max-width:2000px;
-    max-height: 500px ;
+    max-height: 500px;
+    min-height: 100px;
+    min-width: 120px;
 
 }
 
@@ -129,6 +131,7 @@ header h1{
     font-weight: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: max(1.3vw, 1.3vh);
+
     line-height: 1.3em;
     text-indent: 2em;
 }
@@ -500,11 +503,11 @@ footer p{
     background: transparent;
     padding: 8px;
     margin: 5px;
+    transition: 0.8s;
 }
 
 .pe i:hover{
     color: aqua;
-    transition: 0.8s;
 }
 
 .final, span{
