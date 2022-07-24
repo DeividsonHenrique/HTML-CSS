@@ -45,7 +45,7 @@ header h1{
     background-color: white;
     color: black;
     font-weight: bolder;
-    font-size: max(10px, 1.1vw);
+    font-size: max(6px, 1.2vw);
     text-decoration: none;
     padding: 10px;
     margin: 5px;
